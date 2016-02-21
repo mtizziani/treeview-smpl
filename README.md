@@ -2,6 +2,8 @@
 
 ### Version 0.8
 
+<img src="http://prntscr.com/a64no6">
+
 ## Description
 
 TreeView SmpL is simple Plugin/Script for your HTML pages. You can define folder structures with files via JSON and 

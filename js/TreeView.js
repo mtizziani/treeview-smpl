@@ -64,7 +64,7 @@ var TreeView = (function ($) {
         /* add the TreeView follow line */
         node.append([
             $('<div class="tv-head">').append(
-                $("<a>").attr('href', '').html("TreeView on Github")
+                $("<a>").attr('href', '').html("TreeView SmpL on Github")
             )
         ]);
         /* start building the view */
