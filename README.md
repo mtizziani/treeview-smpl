@@ -2,7 +2,7 @@
 
 ### Version 0.8
 
-<img src="http://prntscr.com/a64no6">
+<img src="http://i.imgur.com/G6Ttu6O.png">
 
 ## Description
 
