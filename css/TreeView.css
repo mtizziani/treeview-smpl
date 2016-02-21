@@ -1,0 +1,53 @@
+.tree-view {
+    background-color: #3e3e3e;
+    padding: .1em .5em;
+    position: relative
+}
+
+.tree-view .tv-head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #3e3e3e;
+    text-align: right;
+    background-color: #cfcfcf;
+    padding: .1em .4em;
+    border-bottom-left-radius: .4em
+}
+
+.tree-view .tv-head a {
+    text-decoration: none;
+    padding-right: 1.2em;
+    background-image: url(../resources/GitHub-Mark-64px.png);
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 1em
+}
+
+.tree-view ul {
+    padding-left: .5em;
+    margin: 0
+}
+
+.tree-view ul li {
+    list-style-type: none;
+    padding-left: 1.5em;
+    color: #cfcfcf
+}
+
+.tree-view ul li.folder {
+    background-image: url(../resources/folder.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center
+}
+
+.tree-view ul li.file {
+    background-image: url(../resources/document.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+    font-style: italic;
+    color: #eee
+}

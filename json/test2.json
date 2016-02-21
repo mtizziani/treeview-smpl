@@ -1,0 +1,38 @@
+[
+  {
+    "type": "dir",
+    "value": "script",
+    "children": [
+      {
+        "type": "dir",
+        "value": "js",
+        "children": [
+          {
+            "type": "file",
+            "value": "test.js"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "value": "styles",
+    "children": [
+      {
+        "type": "dir",
+        "value": "..."
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "value": "resources",
+    "children": [
+      {
+        "type": "dir",
+        "value": "..."
+      }
+    ]
+  }
+]

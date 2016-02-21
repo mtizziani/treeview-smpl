@@ -1,0 +1,71 @@
+/*
+Copyright 2016 by Maik Tizziani (mtizziani@gmail.com)
+
+This file is part of TreeView SmpL.
+
+TreeView SmpL is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TreeView SmpL is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.tree-view {
+  .tv-head {
+    a {
+      text-decoration: none;
+      padding-right: 1.2em;
+      background-image: url(../resources/GitHub-Mark-64px.png);
+      background-position-x: right;
+      background-position-y: center;
+      background-repeat: no-repeat;
+      background-size: 1em;
+    }
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #3e3e3e;
+    text-align: right;
+    background-color: #CFCFCF;
+    padding: 0.1em 0.4em;
+    border-bottom-left-radius: 0.4em;
+
+  }
+  ul {
+    li {
+      &.folder {
+        background-image: url(../resources/folder.png);
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: center;
+      }
+      &.file {
+        background-image: url(../resources/document.png);
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: center;
+        font-style: italic;
+        color: #eeeeee;
+      }
+      list-style-type: none;
+      padding-left: 1.5em;
+      color: #CFCFCF;
+    }
+
+    padding-left: 0.5em;
+    margin: 0;
+  }
+  & > ul {
+    //margin-left: 0.2em;
+  }
+  background-color: #3e3e3e;
+  padding: 0.1em 0.5em;
+  position: relative;
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "type": "dir",
+    "value": "myFolder"
+  },
+  {
+    "type": "file",
+    "value": "myFile.html"
+  },
+  {
+    "type": "dir",
+    "value": "styles",
+    "children": [
+      {
+        "type": "dir",
+        "value": "css",
+        "children": [
+          {
+            "type": "file",
+            "value": "myFile.css"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "value": "myFile.less",
+        "children": [
+          {
+            "type": "file",
+            "value": "myFile.css.map"
+          }
+        ]
+      }
+    ]
+  }
+]
