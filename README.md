@@ -1,10 +1,10 @@
-# TreeView SimpL
+# TreeView SmpL
 
 ### Version 0.8
 
 ## Description
 
-TreeView SimpL is simple Plugin/Script for your HTML pages. You can define folder structures with files via JSON and 
+TreeView SmpL is simple Plugin/Script for your HTML pages. You can define folder structures with files via JSON and 
 TreeView SmpL displays it as a nice View into your html. You can directly customize the design via Less-CSS or CSS. 
 If you want to expand the Script and use it in your own Products, read the Licence-Agreement on the bottom of this 
 Document.
