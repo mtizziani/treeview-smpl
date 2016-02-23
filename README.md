@@ -6,18 +6,18 @@
 
 ## Description
 
-TreeView SmpL is simple Plugin/Script for your HTML pages. You can define folder structures with files via JSON and 
-TreeView SmpL displays it as a nice View into your html. You can directly customize the design via Less-CSS or CSS. 
-If you want to expand the Script and use it in your own Products, read the Licence-Agreement on the bottom of this 
+TreeView SmpL is a simple Plugin/Script for your HTML pages. You can define folder structures via JSON files and 
+TreeView SmpL displays it as a nice view in your html. You can directly customize the design via Less-CSS or CSS. 
+If you want to expand the script and use it in your own products, read the Licensing-Agreement on the bottom of this 
 Document.
 
 ## Dependencies
 
-You will need to implement jQuery 1.10.x or 2.10.x (below is not tested)
+You will need to have jQuery 1.10.x or 2.10.x (below is not tested) in your web page.
 
 ## How to start?
 
-Implement jQuery first to your HTML File. Now you can implement TreeView.css and TreeView.js like this:
+Add jQuery first to your HTML File. Now you can add TreeView.css and TreeView.js like this:
 
     <head>
         ..
@@ -31,7 +31,7 @@ Implement jQuery first to your HTML File. Now you can implement TreeView.css and
     </body>
 
 ### JSON Files with tree mapping
-Next step is to create a JSON file like this:
+The next step is to create a JSON file like this:
 
     [
       {
@@ -70,19 +70,19 @@ Next step is to create a JSON file like this:
       }
     ]
     
-In this example we have simple Objects in an Array (the surrounding Array is a must have). Every must have a `type` and a
-`value` property. And every Object can have a `children` property this is again a Array of Objects. Known types are `dir` 
-for Directory and `file` for Filename. The `value` can be what ever you want. In the last File sample you see a File that
-has a children too, that is very fine to make mapping visible.
+In this example we have simple objects in an array (the surrounding array is a must have). Every item must have a `type` and a
+`value` property. And every object can have a `children` property this is again an array of objects. Known types are `dir` 
+for directories and `file` for filenames. The `value` can be what ever you want. In the last file of the sample you see a File that
+has a child node too, that is very neat to make mapping visible.
 
-Creating the JSON by hand is not very difficult you see. But i used this simple format to create the JSON files with 
+Creating the JSON by hand is not very difficult you see. I used this simple format to create the JSON files with 
 PHP or Java i.e. 
 
 ### Start the View in your HTML File
 
-After the JSON is created, by hand or by any other Script/Language you can simply implement the view to your HTML
-by creating a new DIV Element. You need to assign the class `tree-view` and a `data-source` attribute with the path
-to the JSON with the structure. The path can be relative or absolute or an link to a backend or something like this.
+After you created the JSON, by hand or by any other script/language, you can simply add the view to your HTML
+by creating a new DIV element. You need to assign the class `tree-view` and a `data-source` attribute with the path
+to the JSON to the div node. The path can be relative or absolute or a link to a backend or something like this.
 
     <head>
         ..
@@ -97,12 +97,12 @@ to the JSON with the structure. The path can be relative or absolute or an link 
         <script type="text/javascript" src="js/TreeView.js></script>
     </body>
     
-Now it is done. You have a simple fine Tree View in your HTML without big trouble.
+That's all! Now you have a simple tree view in your HTML without big trouble.
 
 ## Future / TODO
 
 I want to expand the script with several icons for file types and perhaps empty folders. Another thing
-i can do in future is to make folders expand/collapse able.
+I can do in future is to make folders expand/collapse able.
 
 ## Licence
 
